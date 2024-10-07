@@ -1,0 +1,16 @@
+.task-background{
+  background-image: url('/public/task3.avif');
+  height: 100vh;
+}
+
+.font-color{
+  font-size: large;
+  font-weight: 800;
+}
+
+.background{
+  background-color:rgb(102, 98, 98);
+}
+.header-text{
+  text-decoration: none;
+}
