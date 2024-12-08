@@ -18,13 +18,13 @@ function App() {
       <section className='mt-0'>
       <Routes>
         <Route path='/' element={<TaskHome></TaskHome>}></Route>
-        <Route path='register' element={<UserRegister></UserRegister>}></Route>
-        <Route path='login' element={<UserLogin></UserLogin>}></Route>
-        <Route path='dashboard' element={<UserDashboard></UserDashboard>}></Route>
-        <Route path="add-task" element={<AddTask></AddTask>}></Route>
-        <Route path="edit-task/:id" element={<EditTask/>}></Route>
+        <Route path='/register' element={<UserRegister></UserRegister>}></Route>
+        <Route path='/login' element={<UserLogin></UserLogin>}></Route>
+        <Route path='/dashboard' element={<UserDashboard></UserDashboard>}></Route>
+        <Route path="/addtask" element={<AddTask></AddTask>}></Route>
+        <Route path="/edit-task/:id" element={<EditTask/>}></Route>
         
-        <Route path="user-error" element={<UserError></UserError>}></Route>
+        <Route path="/error/user" element={<UserError></UserError>}></Route>
       </Routes>
       </section>
       </BrowserRouter>
